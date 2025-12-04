@@ -10,5 +10,6 @@ public class TaskManagerBackendApplication {
 		SpringApplication.run(TaskManagerBackendApplication.class, args);
         System.out.println("Application is Started");
         System.out.println("Welcome to Task manager");
+        System.out.println("hello world");
 	}
 }
