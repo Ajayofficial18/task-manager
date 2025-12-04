@@ -32,6 +32,6 @@ public class TaskController {
     @DeleteMapping("/{id}")
     public String deleteTask(@PathVariable Long id) {
         taskService.deleteTask(id);
-        return "Task deleted successfully";
+        return "Task deleted successfully : happy coding";
     }
 }
